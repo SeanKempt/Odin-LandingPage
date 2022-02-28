@@ -7,6 +7,8 @@ body {
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 h3 {
@@ -14,6 +16,60 @@ h3 {
     margin-right: auto;
     color: #f9faf8;
     font-size: 24px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    width: 100px;
+    padding: 8px;
+}
+
+.hero {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.whoweare {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.whoweare .container, .img-container {
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container, .img-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-container {
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+.navigation {
+    margin-right: 100px;
+}
+
+.image-title {
+    width: 500px;
+    height: 300px;
 }
 
 .header {
